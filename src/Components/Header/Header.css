@@ -5,7 +5,7 @@ header{
     background: var(--color-primary);
     justify-content: center;
     margin-bottom: 4rem;
-    
+      
 }
 .heading{
     width: 80%;
@@ -14,4 +14,8 @@ header{
     /* background: #000; */
     align-items: center;
 
+}
+.headerpages{
+    display:flex;
+    gap: 3rem;
 }
