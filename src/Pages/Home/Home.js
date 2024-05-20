@@ -8,10 +8,10 @@ const Home = () => {
     <>
         {/* <HeadingText title={'Clients '} titlePrimary={'Worked With'} /> */}
 
-      <section className='container'>
+      <div className='container'>
         <Slides/>
 
-      </section>
+      </div>
       </>
 
 

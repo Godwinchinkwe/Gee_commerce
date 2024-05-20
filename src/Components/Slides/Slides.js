@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
+import "./Slides.css"
+import blog2 from "../../assets/blog2.jpg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,13 +22,30 @@ const Slides = () => {
 
 
   return (
-    <section className='home'>
+    <div>
         <Slider {...settings}>
-      <div>
+      <div className='slide_1'>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
+        <h3>Shoe</h3>
         <h3>Shoe</h3>
       </div>
       <div>
         <h3>Bag</h3>
+        <img src={blog2} alt=''/>
       </div>
       <div>
         <h3>jewelries</h3>
@@ -42,7 +61,7 @@ const Slides = () => {
       </div>
     </Slider>
       
-    </section>
+    </div>
   )
 }
 
