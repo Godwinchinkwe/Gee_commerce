@@ -1,0 +1,17 @@
+.slidecontent-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: goldenrod;
+}
+
+.slidecontent-left{
+    
+    background: gray;
+    width: 50%;
+}
+.slidecontent-right{
+    width: 40%;
+
+}

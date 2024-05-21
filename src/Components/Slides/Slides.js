@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "./Slides.css"
 import blog2 from "../../assets/blog2.jpg"
+import SlideContent from '../SlideContent/SlideContent';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,7 +10,8 @@ import "slick-carousel/slick/slick-theme.css";
 const Slides = () => {
 
     const settings = {
-        dots: true,
+        dots: false,
+        // dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -47,8 +49,8 @@ const Slides = () => {
         <h3>Bag</h3>
         <img src={blog2} alt=''/>
       </div>
-      <div>
-        <h3>jewelries</h3>
+      <div className='slide-third'>
+        <SlideContent />
       </div>
       <div>
         <h3>suit</h3>
