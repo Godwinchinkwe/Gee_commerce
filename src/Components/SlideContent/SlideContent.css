@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: goldenrod;
+    /* background: goldenrod; */
+    height: 70vh;
 }
 
 .slidecontent-left{

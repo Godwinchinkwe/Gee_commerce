@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from "react-slick";
 import "./Slides.css"
-import blog2 from "../../assets/blog2.jpg"
+// import blog2 from "../../assets/blog2.jpg"
 import SlideContent from '../SlideContent/SlideContent';
+import blog56 from '../../assets/blog56.jpg'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,40 +27,29 @@ const Slides = () => {
   return (
     <div>
         <Slider {...settings}>
-      <div className='slide_1'>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-        <h3>Shoe</h3>
-      </div>
+          <div className='slide_1'>
+          <SlideContent primarytext={"Unleash Your Unique Style"} 
+           secondtext={'Chase your dreams in style'} img={blog56}/>
+        </div>
       <div>
-        <h3>Bag</h3>
-        <img src={blog2} alt=''/>
+      <SlideContent primarytext={"Unleash Your Unique Style"} 
+        secondtext={'Chase your dreams in style'} img={blog56}/>
       </div>
       <div className='slide-third'>
-        <SlideContent />
+        <SlideContent primarytext={"Select your New Perfect Style"} 
+        secondtext={'Some things are not to be left unattended to'} img={blog56}/>
       </div>
       <div>
-        <h3>suit</h3>
+      <SlideContent primarytext={"LUXURY Or NOTHING"} 
+        secondtext={'I bet you dont have this one in you collections'} img={blog56}/>
       </div>
       <div>
-        <h3>clothes</h3>
+      <SlideContent primarytext={"Dare to be Different"} 
+        secondtext={'Dress to Express, Not to Impress'} img={blog56}/>
       </div>
       <div>
-        <h3>belts</h3>
+      <SlideContent primarytext={"Embrace Your Individuality"} 
+        secondtext={'Fashion that Inspires Confidence'} img={blog56}/>
       </div>
     </Slider>
       

@@ -1,21 +1,21 @@
 import React from 'react'
 import "./SlideContent.css"
-import blogg5 from "../../assets/blog57.jpg"
+// import blogg5 from "../../assets/blog57.jpg"
 
-const SlideContent = ({img}) => {
+const SlideContent = ({img, primarytext, secondtext}) => {
   return (
     <div className='slidecontent-main'>
         <div className='slidecontent-left'>
             <h1>
-                Select your New Perfect Style
+                {primarytext}
             </h1>
-            <p>Some things are not to be left unattended to</p>
+            <p>{secondtext}</p>
 
-            <button> Shop </button>
+            <button> Shop Now</button>
 
         </div>
         <div className='slidecontent-right'>
-            <img src={blogg5} alt='' />
+            <img src={img} alt='' />
         </div>
       
     </div>
