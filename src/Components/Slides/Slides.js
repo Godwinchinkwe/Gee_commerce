@@ -4,6 +4,10 @@ import "./Slides.css"
 // import blog2 from "../../assets/blog2.jpg"
 import SlideContent from '../SlideContent/SlideContent';
 import blog56 from '../../assets/blog56.jpg'
+import blog54 from '../../assets/blog54.jpg'
+import blog53 from '../../assets/blog53.jpg'
+import blog52 from '../../assets/blog52.jpg'
+import blog51 from '../../assets/blog51.jpg'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -33,19 +37,19 @@ const Slides = () => {
         </div>
       <div>
       <SlideContent primarytext={"Unleash Your Unique Style"} 
-        secondtext={'Chase your dreams in style'} img={blog56}/>
+        secondtext={'Chase your dreams in style'} img={blog54}/>
       </div>
       <div className='slide-third'>
         <SlideContent primarytext={"Select your New Perfect Style"} 
-        secondtext={'Some things are not to be left unattended to'} img={blog56}/>
+        secondtext={'Some things are not to be left unattended to'} img={blog53}/>
       </div>
       <div>
       <SlideContent primarytext={"LUXURY Or NOTHING"} 
-        secondtext={'I bet you dont have this one in you collections'} img={blog56}/>
+        secondtext={'I bet you dont have this one in you collections'} img={blog52}/>
       </div>
       <div>
       <SlideContent primarytext={"Dare to be Different"} 
-        secondtext={'Dress to Express, Not to Impress'} img={blog56}/>
+        secondtext={'Dress to Express, Not to Impress'} img={blog51}/>
       </div>
       <div>
       <SlideContent primarytext={"Embrace Your Individuality"} 

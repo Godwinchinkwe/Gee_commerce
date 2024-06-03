@@ -11,7 +11,7 @@ const SlideContent = ({img, primarytext, secondtext}) => {
             </h1>
             <p>{secondtext}</p>
 
-            <button> Shop Now</button>
+            <button className='btn'> Shop Now</button>
 
         </div>
         <div className='slidecontent-right'>
